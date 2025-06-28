@@ -6,6 +6,7 @@ A Streamlit web app that allows users to chat with a MySQL database using natura
 
 ## 🚀 Demo
 
+https://github.com/user-attachments/assets/9a972d98-b860-48ac-b7a8-1cd17c4965ba
 
 ---
 
