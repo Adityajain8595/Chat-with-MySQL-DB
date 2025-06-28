@@ -8,8 +8,8 @@ load_dotenv()
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 groq_api_key = os.getenv("GROQ_API_KEY")
 
-st.title("Chat with your SQL DB using LangChain")
-st.write("Interact with your MySQL database through the chatbot! It is capable of answering any question asked in natural language based on data in the database")
+st.title("Chat with MySQL DB using LangChain")
+st.write("Interact with your database through the chatbot! It is capable of answering any query/question asked in natural language based on data in the database")
 
 with st.sidebar:
     st.header("Enter your MySQL DB credentials")
