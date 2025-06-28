@@ -15,7 +15,6 @@ def sql_agent(sql_db, groq_api_key):
     sql_agent = create_sql_agent(
         llm=llm,
         toolkit=toolkit,
-        verbose=True,
         agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         handle_parsing_errors=True,
     )
